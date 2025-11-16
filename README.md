@@ -49,6 +49,15 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 
 **Figure:** Our DIFM module resolves conflicts between semantic direction (`f_dir`) and interaction fields (`f_interact`), improving safety around dynamic agents.
 
+## 📊 Quantitative Summary
+
+<p align="center">
+  <img src="assets/table.png" width="700">
+</p>
+Quantitative comparison of our method against representative baselines on the Nav-test benchmark. Our method achieves state-of-the-art performance across key metrics, demonstrating superior planning quality, safety, and task completion efficiency.
+
+
+
 
 # 🔒 Code Availability
 
