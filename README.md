@@ -44,7 +44,7 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 ### 3. Interaction-Aware Conflict Handling (DIFM)
 
 <p align="center">
-  <img src="assets/conflict_detection.png" width="700">
+  <img src="assets/ablation.png" width="700">
 </p>
 
 **Figure:** Our DIFM module resolves conflicts between semantic direction (`f_dir`) and interaction fields (`f_interact`), improving safety around dynamic agents.
