@@ -56,7 +56,11 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 </p>
 Quantitative comparison of our method against representative baselines on the Nav-test benchmark. Our method achieves state-of-the-art performance across key metrics, demonstrating superior planning quality, safety, and task completion efficiency.
 
+## 📬 Contact
 
+If you have any questions or need additional materials:
+
+**Email:** zjj@cumt.edu.cn
 
 
 # 🔒 Code Availability
