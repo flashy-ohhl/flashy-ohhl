@@ -54,6 +54,19 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 <p align="center">
   <img src="assets/table.png" width="700">
 </p>
+| Method       | Input        | Img. Backbone | NC ↑ | DAC ↑ | TTC ↑ | Comf. ↑ | EP ↑ | PDMS ↑ |
+|--------------|--------------|---------------|------|-------|-------|---------|------|--------|
+| UniAD        | Camera       | ResNet-34     | 97.8 | 91.9  | 92.9  | 100     | 78.8 | 83.4   |
+| LTF          | Camera       | ResNet-34     | 97.4 | 92.8  | 92.4  | 100     | 79.0 | 83.8   |
+| PARA-Drive   | Camera       | ResNet-34     | 97.9 | 92.4  | 93.0  | 99.8    | 79.3 | 84.0   |
+| VADv2        | Camera & Lidar| ResNet-34     | 97.2 | 89.1  | 91.6  | 100     | 76.0 | 80.9   |
+| Transfuser   | Camera & Lidar| ResNet-34     | 97.7 | 92.8  | 92.8  | 100     | 79.2 | 84.0   |
+| DRAMA        | Camera & Lidar| ResNet-34     | 98.0 | 93.1  | 94.8  | 100     | 80.1 | 85.5   |
+| Hydra-NeXt   | Camera & Lidar| ResNet-34     | 98.1 | 97.7  | 94.6  | 100     | 81.8 | 88.6   |
+| Hydra-MDP    | Camera & Lidar| ResNet-34     | 98.3 | 96.0  | 94.6  | 100     | 78.7 | 86.5   |
+| DiffusionDrive| Camera & Lidar| ResNet-34     | 98.2 | 96.2  | 94.7  | 100     | 82.2 | 88.1   |
+| GoalFlow     | Camera & Lidar| ResNet-34     | 98.4 | 98.3  | 94.6  | 100     | 85.0 | 90.3   |
+| Ours         | Camera & Lidar| ResNet-34     | 99.3 | 96.4  | 96.5  | 100     | 84.5 | 90.4   |
 Quantitative comparison of our method against representative baselines on the Nav-test benchmark. Our method achieves state-of-the-art performance across key metrics, demonstrating superior planning quality, safety, and task completion efficiency.
 
 ## 📬 Contact
